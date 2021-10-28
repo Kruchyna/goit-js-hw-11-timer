@@ -1,0 +1,82 @@
+body{
+    background-color: lightgrey;
+   
+
+}
+
+.container{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+
+}
+.field:not(:last-child){
+    margin-right: 15px;
+}
+
+.value{
+    margin-bottom: 10px;
+    color: tomato;
+    
+}
+
+.label{
+    color: rgb(136, 130, 128);
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 25px;
+    font-size:2em;
+    font-weight: bold;
+    text-transform: lowercase;
+
+}
+
+
+.buttom__container{
+    display: flex;
+    padding-top: 35px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.is-hiden.buttom__timer-hiden{
+display: inline-block;
+
+}
+
+.buttom__timer-hiden {
+    display: none;
+}
+
+.buttom__timer,
+.buttom__timer-hiden{
+    width: 75px;
+    padding: 5px;
+    background: linear-gradient(rgb(224, 210, 213), rgb(179, 166, 175),  rgb(223, 76, 76));
+    background-position: 0 0;
+    border-radius: 30px;
+    border: 3px solid white;
+    animation: background 5s infinite alternate;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size:0.8em;
+    font-weight: bold;
+}
+
+@keyframes background {
+  100% {
+    background-position: 0 200px;
+  }
+}
+
+.buttom__timer:not(:last-child){
+    margin-right: 50px;
+}
