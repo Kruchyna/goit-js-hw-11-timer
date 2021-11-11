@@ -7,5 +7,6 @@ export default {
     startBtn: document.querySelector('[data-action="start"]'),
     stopBtn: document.querySelector('[data-action="stop"]'),
     clearBtn: document.querySelector('.buttom__timer-hiden'),
+    
 }
 

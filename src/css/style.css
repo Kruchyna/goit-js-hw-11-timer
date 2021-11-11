@@ -1,16 +1,15 @@
-body{
+/*body{
     background-color: lightgrey;
    
 
 }
 
-.container{
-    padding-left: 25px;
-    padding-right: 25px;
-}
+
 .timer{
     display: flex;
     justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
 .field:not(:last-child){
@@ -37,9 +36,9 @@ body{
     font-weight: bold;
     text-transform: lowercase;
 
-}
+}*/
 
-
+/*
 .buttom__container{
     display: flex;
     padding-top: 35px;
@@ -80,3 +79,48 @@ display: inline-block;
 .buttom__timer:not(:last-child){
     margin-right: 50px;
 }
+*/
+
+body {
+    text-align: center;
+    background: #00ecb9;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+   
+  .countdown-title {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+   
+  .timer {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+   
+  .field {
+    padding: 10px;
+    border-radius: 3px;
+    background: #00bf96;
+    display: inline-block;
+  }
+   
+  .value {
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816a;
+    display: inline-block;
+  }
+   
+  .label {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
